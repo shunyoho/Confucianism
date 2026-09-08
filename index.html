@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>大成殿｜把孔子的道理，放回今天的生活裡</title>
+<meta name="description" content="大成殿是財團法人聖學文化教育基金會對外開放的主殿。我們把孔子的答案整理成看得懂、用得上的東西，透過六藝推廣課程跟你一起試試看。">
+<meta name="theme-color" content="#f6f1e6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1b1815" media="(prefers-color-scheme: dark)">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="大成殿｜把孔子的道理，放回今天的生活裡">
+<meta property="og:description" content="兩千五百年前，孔子想解決一個問題：人跟人怎麼相處，才不會互相傷害。這個問題到今天還沒過期。">
+<meta property="og:image" content="images/derived/hero-statue.webp">
+
+<link rel="icon" href="images/derived/logo-mark.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- 正文：Noto Serif TC。Google Fonts 對中文有 unicode-range 分片，只會載入實際用到的字段。 -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500&display=swap">
+<!-- 標題／經文：霞鶩文楷 TC，已 subset 成本站實際用到的字（約 60KB，非整包載入）。
+     它承載 H1，屬於 LCP 元素，所以才 preload；subset 是把檔案變小的手段，preload 只是提早取得。 -->
+<link rel="preload" href="assets/fonts/lxgw-wenkai-tc-subset.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<a class="sr-only" href="#main">跳到主要內容</a>
+
+<header class="nav">
+  <div class="shell nav__inner">
+    <a class="brand" href="#main">
+      <picture>
+        <source srcset="images/derived/logo-mark-dark.png" media="(prefers-color-scheme: dark)">
+        <img src="images/derived/logo-mark.png" alt="聖學文化教育基金會標誌：一本攤開的書，兩頁向內捲成心形" width="46" height="24">
+      </picture>
+      <span>
+        <span class="brand__name kai">大成殿</span>
+        <span class="brand__sub">聖學文化教育基金會</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="主要導覽">
+      <a href="#datong">禮運大同篇</a>
+      <a href="#entry">三個入門</a>
+      <a href="#events">六藝推廣</a>
+      <a href="#chunqiu">立與守</a>
+      <a href="#visit">來訪</a>
+    </nav>
+
+    <details class="nav__menu" id="navmenu">
+      <summary aria-label="開啟選單"><i></i><i></i><i></i></summary>
+      <nav class="nav__panel" aria-label="主要導覽">
+        <a href="#datong">禮運大同篇</a>
+        <a href="#entry">三個入門</a>
+        <a href="#events">六藝推廣</a>
+        <a href="#chunqiu">立與守</a>
+        <a href="#visit">來訪</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- 1. 我們是誰 ------------------------------------------------------ -->
+  <section class="hero">
+    <div class="shell hero__grid">
+      <div>
+        <p class="hero__eyebrow">兩千五百年前</p>
+        <h1>孔子想解決一個問題：人跟人怎麼相處，才不會互相傷害。</h1>
+        <p class="hero__sub">
+          這個問題到今天還沒過期。大成殿把孔子的答案整理出來，用課程、用實作，跟你一起試試看。
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#events">看六藝課程</a>
+          <a class="btn btn--ghost" href="#visit">大成殿在哪裡</a>
+        </div>
+      </div>
+
+      <figure class="hero__figure">
+        <img src="images/derived/hero-statue.webp"
+             alt="大成殿內的孔子聖像，身後牆面是手書的禮運大同篇全文"
+             width="1000" height="1300" fetchpriority="high" decoding="async">
+      </figure>
+    </div>
+  </section>
+
+  <!-- 2. 禮運大同篇（全站唯一的重點區） -------------------------------- -->
+  <section class="datong" id="datong" aria-labelledby="datong-h">
+    <div class="shell">
+      <div class="datong__head">
+        <h2 class="h2" id="datong-h">禮運大同篇</h2>
+        <p class="lede">兩千多年前寫下的一段話。一句原文，配一句今天的講法。</p>
+        <p class="datong__source">原文出自《禮記》禮運篇</p>
+      </div>
+
+      <div class="datong__body">
+        <div class="dt-row reveal" style="--i:0">
+          <p class="dt-row__cls">大道之行也，天下為公。選賢與能，講信修睦。</p>
+          <p class="dt-row__vern">當道理真的走得通的時候，天下是大家的。有能力的人被選出來做事，人跟人之間講信用、處得來。</p>
+        </div>
+        <div class="dt-row reveal" style="--i:1">
+          <p class="dt-row__cls">故人不獨親其親，不獨子其子。</p>
+          <p class="dt-row__vern">那時候，你不會只疼自己的爸媽、只顧自己的小孩。</p>
+        </div>
+        <div class="dt-row reveal" style="--i:2">
+          <p class="dt-row__cls">使老有所終，壯有所用，幼有所長，矜寡孤獨廢疾者皆有所養。</p>
+          <p class="dt-row__vern">老人有地方終老，壯年人有事做，小孩有人帶大；沒伴侶的、沒家人的、身心有障礙的，都有人照顧。</p>
+        </div>
+        <div class="dt-row reveal" style="--i:3">
+          <p class="dt-row__cls">男有分，女有歸。</p>
+          <p class="dt-row__vern">男的有他的位置，女的有她的歸屬。</p>
+        </div>
+        <div class="dt-row reveal" style="--i:4">
+          <p class="dt-row__cls">貨惡其棄於地也，不必藏於己；力惡其不出於身也，不必為己。</p>
+          <p class="dt-row__vern">東西不要浪費，但不必都堆在自己家；力氣不要藏著，但不必都為自己用。</p>
+        </div>
+        <div class="dt-row reveal" style="--i:5">
+          <p class="dt-row__cls">是故謀閉而不興，盜竊亂賊而不作，故外戶而不閉，是謂大同。</p>
+          <p class="dt-row__vern">這樣一來，沒人需要算計誰，沒人偷沒人搶，出門不必鎖門。這就叫大同。</p>
+        </div>
+      </div>
+
+      <p class="datong__close reveal">這不是烏托邦。<br>它是一份檢查表：你家、你的社區、你的公司，做到幾條？</p>
+    </div>
+  </section>
+
+  <!-- 3. 三個入門 ------------------------------------------------------ -->
+  <section id="entry" aria-labelledby="entry-h">
+    <div class="shell">
+      <h2 class="h2" id="entry-h">三個入門</h2>
+      <p class="lede">儒家後來把孔子講過的道理整理成幾組詞。它們不是考試範圍，是三個看事情的角度。</p>
+
+      <div class="entry__grid">
+        <a class="card card--lead reveal" style="--i:0" href="philosophy.html#wuchang">
+          <h3 class="card__title">仁義禮智信</h3>
+          <p class="card__text">把別人當人看，該做的事去做，說話有分寸，知道自己不知道，答應了就做到。五個字，講的都是你怎麼要求自己。</p>
+          <span class="card__more">讀下去</span>
+        </a>
+
+        <a class="card reveal" style="--i:1" href="philosophy.html#wulun">
+          <h3 class="card__title">五倫</h3>
+          <p class="card__text">同一句話，對爸媽講、對主管講、對朋友講，本來就該不一樣。五種關係，五種該有的樣子。</p>
+          <span class="card__more">讀下去</span>
+        </a>
+
+        <a class="card card--celadon reveal" style="--i:2" href="philosophy.html#bade">
+          <h3 class="card__title">八德</h3>
+          <p class="card__text">孝、悌、忠、信、禮、義、廉、恥。五常是心裡的原則，八德是做出來的行為。</p>
+          <span class="card__more">讀下去</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. 六藝推廣 ------------------------------------------------------ -->
+  <section id="events" aria-labelledby="events-h">
+    <div class="shell">
+      <h2 class="h2" id="events-h">六藝推廣</h2>
+      <p class="lede">
+孔子教學生六件事。那不是六門才藝課，是六種讓人變得完整的訓練。我們把六藝放回今天的生活裡：花藝、料理、書法、音樂。手上做的是花，練的是分寸；手上寫的是字，練的是靜。</p>
+
+      <ul class="liuyi" aria-label="六藝">
+        <li>禮</li><li>樂</li><li>射</li><li>御</li><li>書</li><li>數</li>
+      </ul>
+
+      <div class="records">
+        <article class="record reveal" style="--i:0">
+          <div>
+            <p class="record__term">第一期</p>
+            <span class="record__when">民國 113 年 6 月</span>
+          </div>
+          <div>
+            <h3 class="record__name">聖學推廣花藝</h3>
+            <p class="record__meta">承懿一樓餐廳　／　帶動：洪麗玉、歐華玲　／　35 人參與</p>
+            <p class="record__note">聘請外師與助教指導，首堂課教學方式生動活潑，學員學得不亦樂乎。</p>
+          </div>
+        </article>
+
+        <article class="record reveal" style="--i:1">
+          <div>
+            <p class="record__term">第二期</p>
+            <span class="record__when">民國 113 年 10 月</span>
+          </div>
+          <div>
+            <h3 class="record__name">聖學推廣花藝</h3>
+            <p class="record__meta">承懿一樓餐廳　／　帶動：洪麗玉、歐華玲　／　25 人參與</p>
+            <p class="record__pending">（本期課後心得整理中）</p>
+          </div>
+        </article>
+      </div>
+
+      <p class="next-up">
+下一期六藝推廣的日期與報名方式尚未公布。想收到開課消息，可以用下方的電話或 Email 跟我們說一聲。課程由屏東縣聖學研究學會主辦。</p>
+    </div>
+  </section>
+
+  <!-- 5. 立與守 -------------------------------------------------------- -->
+  <section class="chunqiu" id="chunqiu" aria-labelledby="chunqiu-h">
+    <div class="shell">
+      <img class="chunqiu__banner"
+           src="images/derived/mural-chunqiu.webp"
+           alt="大成殿壁畫：孔子執筆寫春秋，關公在另一側手持竹簡讀春秋"
+           width="1800" height="584" loading="lazy" decoding="async">
+
+      <div class="chunqiu__grid">
+        <div class="chunqiu__prose">
+          <h2 class="h2" id="chunqiu-h">立與守：孔子與關公</h2>
+          <p class="lede">孔子寫《春秋》，是在立標準。什麼是對的、什麼是錯的，他一筆一筆記下來。</p>
+          <p>一千兩百年後，關公在燈下讀《春秋》。他不是在讀故事，他是在守標準，把書上寫的，活成自己的樣子。</p>
+          <p>一個負責把道理說清楚，一個負責把道理做出來。少了任何一個，這件事都不成立。</p>
+          <p class="chunqiu__lift">我們接的，就是這條線。</p>
+          <p class="chunqiu__note">
+            關公讀《春秋》不是傳說。《三國志》〈關羽傳〉裴松之注引《江表傳》記載，關羽喜好《左氏春秋》，熟到能背誦。
+          </p>
+        </div>
+
+        <div class="couplet reveal" role="group" aria-label="大成殿對聯">
+          <div class="couplet__line cp-kong-r">
+            <span class="sr-only">右聯：孔夫子　關夫子　二位夫子</span>
+          </div>
+          <div class="couplet__line cp-kong-l">
+            <span class="sr-only">左聯：做春秋　看春秋　一部春秋</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. 大成殿與聯絡方式 ---------------------------------------------- -->
+  <section id="visit" aria-labelledby="visit-h">
+    <div class="shell visit__grid">
+      <div>
+        <h2 class="h2" id="visit-h">來大成殿走走</h2>
+        <p class="lede">
+          大成殿是財團法人聖學文化教育基金會對外開放的主殿。想來看看、想問課程怎麼報名，寫信或打電話都可以。
+        </p>
+
+        <!-- ⚠ 測試用資料，上線前務必替換（見規格書第 4 部） -->
+        <dl class="facts">
+          <dt>地址</dt><dd>○○縣○○市○○路○號</dd>
+          <dt>電話</dt><dd><a href="tel:+886000000000">0X-XXXX-XXXX</a></dd>
+          <dt>LINE</dt><dd>@example</dd>
+          <dt>Email</dt><dd><a href="mailto:contact@example.org">contact@example.org</a></dd>
+          <dt>開放時間</dt><dd>週二至週日 09:00-17:00（週一休）</dd>
+        </dl>
+        <!-- /測試用資料 -->
+
+        <p style="margin-top:2rem">
+          <a class="btn btn--primary" href="mailto:contact@example.org">寫信給我們</a>
+        </p>
+      </div>
+
+      <div class="visit__aside">
+        <div class="couplet couplet--small" role="group" aria-label="孔子聖像兩側對聯">
+          <div class="couplet__line cp-zushu-r">
+            <span class="sr-only">右聯：祖述堯舜　憲章文武</span>
+          </div>
+          <div class="couplet__line cp-jizhi-l">
+            <span class="sr-only">左聯：繼志述事　四配傳燈</span>
+          </div>
+        </div>
+        <p class="visit__caption">孔子聖像兩側的對聯</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="shell foot__inner">
+    <p class="foot__org">
+      <strong>財團法人聖學文化教育基金會</strong>
+      大成殿　基金會對外開放的主殿<br>
+      六藝推廣課程由屏東縣聖學研究學會主辦
+    </p>
+    <p class="foot__seal" aria-hidden="true">聖學</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  document.documentElement.classList.add('reveal-ready');
+  var items = document.querySelectorAll('.reveal');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  if (!('IntersectionObserver' in window) || reduce.matches) {
+    for (var i = 0; i < items.length; i++) items[i].classList.add('is-in');
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0 });
+    items.forEach(function (el) { io.observe(el); });
+  }
+
+  // 手機選單：點連結或按 Esc 收起來
+  var menu = document.getElementById('navmenu');
+  if (menu) {
+    menu.addEventListener('click', function (e) {
+      if (e.target.closest('.nav__panel a')) menu.open = false;
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.open) { menu.open = false; menu.querySelector('summary').focus(); }
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
